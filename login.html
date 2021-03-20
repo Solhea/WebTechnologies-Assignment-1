@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+  <link href="assets/css/flexslider.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/color/default.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="assigmentOne.css">
+    <title>Videogame Review</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <!-- Navbar
+          ================================================== -->
+            <div class="navbar navbar-static-top">
+              <div class="navbar-inner">
+                <div class="container">
+                  <!-- logo -->
+                  <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="Game Review" title="GameReview.com" /></a>
+                  </div>
+                  <!-- end logo -->
+      
+                  <!-- top menu -->
+                  <div class="navigation">
+                    <nav>
+                      <ul class="nav topnav">
+                        <li>
+                          <a href="index.html"><i class="icon-home"></i> Home </a>
+                        </li>
+                        <li>
+                            <a href="wiki.html"><i class="icon-book"></i> Wiki </a>
+                        </li>
+                        <li>
+                          <a href="register.html"><i class="icon-edit"></i> Register </i></a>
+                        </li>
+                        <li class="active">
+                          <a href="login.html"><i class="icon-user"></i> Login </a>
+                        </li>
+                        <li>
+                          <a href="contact.html"><i class="icon-envelope-alt"></i> Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <!-- end menu -->
+      
+                </div>
+              </div>
+            </div>
+          </header>
+          <section class="my-login-page">
+            <section class="h-100">
+                <div class="container h-100">
+                    <div class="row justify-content-md-center h-100">
+                        <div class="card-wrapper" style="margin: auto;">
+                            <div class="card fat">
+                                <div class="card-body">
+                                    <h4 class="card-title">Login</h4>
+                                    <form class="my-login-validation">
+                                        <div class="form-group">
+                                            <label for="email">E-Mail Address</label>
+                                            <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                        </div>
+        
+                                        <div class="form-group">
+                                            <label for="password">Password
+                                            </label>
+                                            <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                        </div>
+        
+                                        <div class="form-group">
+                                            <div class="custom-checkbox custom-control">
+                                                <input type="checkbox" name="remember" id="remember" class="custom-control-input">
+                                                <label for="remember" class="custom-control-label">Remember Me</label>
+                                            </div>
+                                        </div>
+        
+                                        <div>
+                                            <button type="submit" class="btn-primary btn-block" onclick="logIn()">
+                                                Login
+                                            </button>
+
+                                            <script>
+                                                function logIn() {
+                                                    alert("You logged in");                                                    
+                                                }
+                                            </script>
+                                        </div>
+                                        <div class="mt-4 text-center">
+                                            Don't have an account? <a href="register.html">Create One</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          </section>
+          <!-- Footer
+       ================================================== -->
+          <footer class="footer">
+            <div class="verybottom">
+              <div class="container">
+                <div class="row">
+                  <div class="span6">
+                    <p>
+                      &copy; Made for CSE206 Web Technologies and Programming
+                    </p>
+                  </div>
+                  <div class="span6">
+                    <div class="pull-right">
+                      <div class="credits">
+                        Created by Baran Eryürek 171805048
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+      
+        </div>
+        <!-- end wrapper -->
+</body>
+</html>
